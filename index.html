@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="navbar">
+      <a class="logo" href="#">Vaijeenath<span>.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact" class="nav-cta">Hire Me</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="mesh"></div>
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>Open to opportunities
+          </div>
+          <h1 class="hero-title">
+            Full Stack<br />
+            <span class="line2">Developer</span>
+          </h1>
+          <p class="hero-desc">
+            I build fast, scalable, and beautiful web applications — from
+            pixel-perfect UIs to rock-solid APIs. 5+ years turning ideas into
+            products that users love.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work ↓</a>
+            <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <div class="stat-val">30+</div>
+              <div class="stat-label">Projects worked</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-ring">
+            <div class="avatar-inner">
+              <span class="avatar-initials"
+                ><img class="avatar-img" src="./profile-logo.png"
+              /></span>
+            </div>
+          </div>
+          <div class="floating-chip chip1">⚡ React · Node.js</div>
+          <div class="floating-chip chip2">🗄 Mysql · MongoDB</div>
+          <div class="floating-chip chip3">☁️ Java · Python</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-inner">
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p class="section-tag">About Me</p>
+            <h2 class="section-title">
+              Building products people actually enjoy using
+            </h2>
+            <p>
+              Hi, I'm Alex Morgan — a Full Stack Developer specialize in
+              building end-to-end web applications with clean code and solid
+              architecture.
+            </p>
+            <p>
+              I care deeply about developer experience, performance, and making
+              sure every line of code serves a purpose. Whether it's a complex
+              dashboard or a simple landing page, I bring the same level of
+              craft and attention to detail.
+            </p>
+            <div class="skills-grid" style="margin-top: 2rem">
+              <div class="skill-item"><span>⚛️</span>React</div>
+              <div class="skill-item"><span>🟢</span>Node.js</div>
+              <div class="skill-item"><span>🐍</span>Python</div>
+              <div class="skill-item"><span>🐘</span>Mysql</div>
+              <div class="skill-item"><span>🍃</span>MongoDB</div>
+              <div class="skill-item"><span>☁️</span>Java</div>
+              <div class="skill-item"><span>🐳</span>SpringBoot</div>
+              <div class="skill-item"><span>▲</span>Bootstrap</div>
+              <div class="skill-item"><span>🔷</span>JavaScript</div>
+            </div>
+          </div>
+          <div class="stack-section reveal">
+            <div class="stack-title">Proficiency</div>
+            <div class="stack-bars">
+              <div class="stack-bar-item">
+                <div class="stack-bar-label">
+                  <strong>Frontend (React )</strong><span>80%</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" style="--w: 0.95"></div>
+                </div>
+              </div>
+              <div class="stack-bar-item">
+                <div class="stack-bar-label">
+                  <strong>Backend (Node.js / Java)</strong><span>90%</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" style="--w: 0.9"></div>
+                </div>
+              </div>
+              <div class="stack-bar-item">
+                <div class="stack-bar-label">
+                  <strong>Databases (SQL / NoSQL)</strong><span>75%</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" style="--w: 0.85"></div>
+                </div>
+              </div>
+              <!-- <div class="stack-bar-item">
+            <div class="stack-bar-label"><strong>DevOps (Docker / AWS / CI-CD)</strong><span>80%</span></div>
+            <div class="bar-track"><div class="bar-fill" style="--w:.80"></div></div>
+          </div> -->
+              <div class="stack-bar-item">
+                <div class="stack-bar-label">
+                  <strong>System Design (LLD / HLD)</strong><span>75%</span>
+                </div>
+                <div class="bar-track">
+                  <div class="bar-fill" style="--w: 0.75"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="section-inner">
+        <p class="section-tag reveal">Work</p>
+        <h2 class="section-title reveal">Selected Projects</h2>
+        <p class="section-sub reveal">
+          A curated selection of projects I've built — to show my working in
+          both Frontend and Backend.
+        </p>
+        <div class="projects-grid">
+          <div class="project-card reveal">
+            <div
+              class="project-thumb"
+              style="
+                background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+              "
+            >
+              🛒
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">React</span
+                ><span class="tag blue">Node.js</span
+                ><span class="tag pink">Firebase</span>
+              </div>
+              <div class="project-name">IRCTC — Train booking system</div>
+              <div class="project-desc">
+                A modern React-based Train Booking platform with real-time train
+                search, dynamic filtering, class-wise fare management, and
+                seamless ticket booking. Features responsive UI, optimized state
+                management, and an intuitive user experience for efficient
+                travel planning.
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://irctc-train-booking.onrender.com/"
+                  class="project-link"
+                  >↗ Live Demo</a
+                >
+                <a
+                  href="https://github.com/vnplatur/IRCTC-train-booking"
+                  class="project-link ghost"
+                  >⌥ GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div
+              class="project-thumb"
+              style="
+                background: linear-gradient(135deg, #0d0d0d, #1a1a2e, #16213e);
+              "
+            >
+              📋
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">JavaScript</span
+                ><span class="tag blue">API</span>
+              </div>
+              <div class="project-name">
+                CryptoTracker — Stock Market Analysis
+              </div>
+              <div class="project-desc">
+                A JavaScript-based cryptocurrency tracking web app with market
+                data. Features include pagination, sorting by high/low prices,
+                adding coins to favorites, responsive UI. Built with Fetch API .
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://vnplatur.github.io/StockMarket_Analysis/"
+                  class="project-link"
+                  >↗ Live Demo</a
+                >
+                <a
+                  href="https://github.com/vnplatur/StockMarket_Analysis"
+                  class="project-link ghost"
+                  >⌥ GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card reveal">
+            <div
+              class="project-thumb"
+              style="
+                background: linear-gradient(135deg, #0a0a0a, #1a1a1a, #002a20);
+              "
+            >
+              📊
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span class="tag">Javascript</span
+                ><span class="tag blue">Socket.io</span
+                ><span class="tag pink">MongoDB</span>
+              </div>
+              <div class="project-name">
+                ChatterUp — real-time communication
+              </div>
+              <div class="project-desc">
+                ChatterUp is a real-time team communication platform with group
+                creation, instant messaging, and seamless collaboration features
+                for team members. Built with a responsive interface, efficient
+                message handling, and an intuitive user experience for
+                streamlined team communication.
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/vnplatur/chatterUp"
+                  class="project-link ghost"
+                  >⌥ GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="section-inner">
+        <p class="section-tag reveal">Career</p>
+        <h2 class="section-title reveal">Work Experience</h2>
+        <p class="section-sub reveal">
+          Places I've worked and the impact I've made along the way.
+        </p>
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-period">Jan/2024 — April/2024</div>
+            <div class="timeline-role">Full Stack Developer</div>
+            <div class="timeline-company">
+              Ideal Technocorp. — pune
+            </div>
+            <div class="timeline-desc">
+              Developed and maintained the company’s website using React.js, Node.js & Firebase, enhancing overall user
+              experience.
+              Integrated RESTful APIs and Firebase Authentication for secure login and reducing unauthorized login attempts.
+              Built a task-tracking system for students, enhancing engagement and simplifying daily activity management.
+            </div>
+            <div class="timeline-chips">
+              <span class="xp-tag">React</span
+              ><span class="xp-tag">Node.js</span
+              ><span class="xp-tag">Firebase</span><span class="xp-tag">AWS</span
+              ><span class="xp-tag">MongoDB</span>
+            </div>
+          </div>
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-period">July/2023 — Jan/2024</div>
+            <div class="timeline-role">Full Stack Java intern</div>
+            <div class="timeline-company">Profound Edutech — pune</div>
+            <div class="timeline-desc">
+              Built scalable web applications using Java, SpringBoot and Hibernate, ensuring efficient backend operations.
+ Designed and implemented responsive, cross-browser compatible web pages, improving accessibility across devices.
+ Implemented JWT authentication and user verification, strengthening application security and protecting user data.
+            </div>
+            <div class="timeline-chips">
+              <span class="xp-tag">React.js</span
+              ><span class="xp-tag">Java</span
+              ><span class="xp-tag">Node.js</span
+              ><span class="xp-tag">SpringBoot</span>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-inner">
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p class="section-tag">Contact</p>
+            <h2>Let's work together</h2>
+            <p>
+              Have a project in mind, a role you think I'd be great for, or just
+              want to connect? I'm always open to a good conversation.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:vaijeenath95@example.com" class="contact-link">
+                <span class="contact-icon">✉️</span>
+                alex@example.com
+              </a>
+              <a
+                href="https://www.linkedin.com/in/vaijeenath-panchakshari-b04982224/"
+                target="_blank"
+                class="contact-link"
+              >
+                <span class="contact-icon">💼</span>
+                linkedin.com/in/alexmorgan
+              </a>
+              <a
+                href="https://github.com/vnplatur"
+                target="_blank"
+                class="contact-link"
+              >
+                <span class="contact-icon">🐙</span>
+                github.com/alexmorgan
+              </a>
+              <a
+                href="https://drive.google.com/file/d/1eNKfU4AkdKyRFdtJn2ZSFqAZT92VbC4I/view"
+                class="contact-link"
+              >
+                <span class="contact-icon">📄</span>
+                Download Resume (PDF)
+              </a>
+            </div>
+          </div>
+          <form
+            class="contact-form reveal"
+            id="contactForm"
+            onsubmit="handleSubmit(event)"
+          >
+            <div class="form-row">
+              <div class="form-group">
+                <label>First Name</label>
+                <input type="text" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" placeholder="Doe" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label>Email</label>
+              <input type="email" placeholder="john@company.com" required />
+            </div>
+            <div class="form-group">
+              <label>Subject</label>
+              <input
+                type="text"
+                placeholder="Job opportunity / Project inquiry"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Message</label>
+              <textarea
+                placeholder="Tell me about your project or role..."
+                required
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              style="align-self: flex-start"
+            >
+              Send Message →
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="footer-copy">© 2025 Alex Morgan. Crafted with care.</p>
+      <div class="footer-links">
+        <a href="#hero">Top ↑</a>
+        <a href="https://github.com/vnplatur" target="_blank">GitHub</a>
+        <a
+          href="https://www.linkedin.com/in/vaijeenath-panchakshari-b04982224/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a
+          href="https://drive.google.com/file/d/1eNKfU4AkdKyRFdtJn2ZSFqAZT92VbC4I/view"
+          >Resume</a
+        >
+      </div>
+    </footer>
+
+    <div class="notif" id="notif">✅ Message sent! I'll reply within 24h.</div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
